@@ -15,7 +15,7 @@ The groups formed here are used for constructing fixed effects in my UC Berkeley
 ## Goal: Group firms as shown in Figure 2
 Figure 1 presents companies' seven features shown in a 2-dimensional space after conducting dimensionality reduction. My goal is to group companies that share similar features, as shown in Figure 2.
 
-![Before Grouping](https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/image_pca_after.JPG)
+![Before Grouping](https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/image_pca_before.JPG)
 ![After Grouping](https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/image_pca_after.JPG)
 
 ## Why is the machine learning approach beneficial?
