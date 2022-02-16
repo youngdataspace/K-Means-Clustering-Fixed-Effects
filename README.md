@@ -15,8 +15,8 @@ The groups formed here are used for constructing fixed effects in my UC Berkeley
 ## Goal: Group firms as shown in Figure 2
 Figure 1 presents companies' seven features shown in a 2-dimensional space after conducting dimensionality reduction. My goal is to group companies that share similar features, as shown in Figure 2.
 
-![Before Grouping](image_pca_before.jpg)
-![After Grouping](image_pca_after.jpg)
+![Before Grouping](https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/image_pca_after.JPG)
+![After Grouping](https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/image_pca_after.JPG)
 
 ## Why is the machine learning approach beneficial?
 In my dissertation, I study whether the new lease rule causes firms to reduce their leasing activity (e.g., discontinue a truck lease). To establish this causality between the new lease rule and firms' leasing activity, I need to eliminate other factors that can also affect lease use. For example, imagine that a group of automobile companies experienced a supply shock that resulted in a reduction of leasing activity. Because such shock is unrelated to the new lease rule, I need to nullify its  effects on leasing activity in order to study the effects of the new lease rule.
