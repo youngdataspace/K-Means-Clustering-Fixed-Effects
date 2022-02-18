@@ -8,7 +8,7 @@
 If you have any comments or suggestions, email me at y.s.yoon@berkeley.edu.
 
 ## Introduction
-In this notebook, I group US public firms by implementing the K-means unsupervised learning. 
+In the notebook, K Means Cluster Fixed Effects.ipynb, I group US public firms by implementing the K-means unsupervised learning. 
 
 The groups formed here are used for constructing fixed effects in my UC Berkeley Haas PhD Dissertation (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3689446">Yoon 2022</a>). However, this code can be generalized and used in many other settings, such as customer/market segmentation and recommendation systems.
 
