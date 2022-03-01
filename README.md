@@ -1,6 +1,6 @@
 # K-Means Clustering Fixed Effects: Form Clusters Through Unsupervised Machine Learning
 
-![Introduction](https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/Introduction.GIF)
+![Introduction](https://raw.githubusercontent.com/youngdataspace/K-Means-Clustering-Fixed-Effects/master/Introduction.gif)
 
 ## Outline
 - Understand and implement K-means clustering algorithm and group firms
