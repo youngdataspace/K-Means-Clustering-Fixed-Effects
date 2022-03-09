@@ -1,7 +1,5 @@
 # K-Means Clustering Fixed Effects: Form Clusters Through Unsupervised Machine Learning
 
-![Introduction](https://raw.githubusercontent.com/youngdataspace/K-Means-Clustering-Fixed-Effects/master/Introduction.gif)
-
 ## Outline
 - Understand and the implement K-means clustering algorithm and group firms.
 - Conduct Principal Component Analysis (PCA) to perform dimensionality reduction and visualize the groupings.
