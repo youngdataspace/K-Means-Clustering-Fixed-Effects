@@ -12,7 +12,7 @@ If you have any comments or suggestions, email me at y.s.yoon@berkeley.edu.
 ## Introduction
 In <a href="https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/K%20Means%20Cluster%20Fixed%20Effects.ipynb">this notebook</a>, I group US public firms by implementing the K-means unsupervised learning. 
 
-I form groups to construct fixed effects and use them in UC Berkeley Haas PhD Dissertation (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3689446">Yoon 2022</a>). However, this code can be generalized and used in many other settings, such as customer/market segmentation and recommendation systems.
+I form groups to construct fixed effects and use them in my UC Berkeley Haas PhD Dissertation (<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3689446">Yoon 2022</a>). However, this code can be generalized and used in many other settings, such as customer/market segmentation and recommendation systems.
 
 ## Goal: Group firms as shown in Figure 2
 Figure 1 presents companies' seven features shown in a 2-dimensional space after conducting dimensionality reduction. My goal is to group companies that share similar features, as shown in Figure 2.
@@ -21,7 +21,7 @@ Figure 1 presents companies' seven features shown in a 2-dimensional space after
 ![After Grouping](https://github.com/youngdataspace/K-Means-Clustering-Fixed-Effects/blob/master/image_pca_after.JPG)
 
 ## Why is the machine learning approach beneficial?
-In my dissertation, I study whether the new lease rule causes firms to reduce their leasing activity (e.g., discontinue a truck lease). To establish this causality between the new lease rule and firms' leasing activity, I need to eliminate other factors that can also affect lease use. For example, imagine that a group of automobile companies experienced a supply shock that resulted in a reduction of leasing activity. Because such shock is unrelated to the new lease rule, I need to nullify its effects on leasing activity in order to study the effects of the new lease rule.
+In my dissertation, I study whether the new lease rule causes firms to reduce their leasing activity (e.g., discontinue a truck lease). To establish this causality between the new lease rule and firms' leasing activity, I need to eliminate other factors that can also affect lease use. For example, imagine that a group of automobile companies experienced a supply shock that resulted in a reduction in leasing activity. Because such shock is unrelated to the new lease rule, I need to nullify its effects on leasing activity in order to study the effects of the new lease rule.
 
 The fixed effects method is one of the popular ways to control for group-specific shocks. Going back to the previous example, because the group of automobile companies belongs to the automobile industry, conducting industry fixed effects analysis would eliminate the automobile industry-specific shocks. In my dissertation, however, industry grouping may not be adequate because leasing decisions depend on various firm features and not just an industry membership. If the relationships between firm features and leasing decisions are perfectly linear, then adding firm features as control variables in regression models should be sufficient. However, since that is unlikely the case, adding fixed effects of groups generated using firm features provides an incremental benefit.
 
